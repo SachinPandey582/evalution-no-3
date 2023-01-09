@@ -12,7 +12,8 @@ const CardReader = (props) => {
     {props.description}
 </Box>
 <Box>
-    Count:{props.open_issues_count} Size: {props.size}
+    Fork:{props.open_issues_count} Star: {props.stargazers_count}
+   <h2>Language: {props.language}</h2>
 </Box>
 <Box>
    
